@@ -52,7 +52,7 @@ Scanning 127.0.0.1...
 
 ---
 
-Made with ❤️ by [Md Umar Hasas](https://github.com/your-username)
+Made with ❤️ by [Md Umar Hasan](https://github.com/your-username)
 
 ```
 
