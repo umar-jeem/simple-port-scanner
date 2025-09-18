@@ -1,29 +1,30 @@
-Perfect 👍 Here are **complete `README.md` files** for both repos, nicely formatted for GitHub.
+
 
 ---
 
-## 📂 `password-strength-checker/README.md`
+## 📂 `simple-port-scanner/README.md`
 
-````markdown
-# 🔐 Password Strength Checker
+```markdown
+# 🌐 Simple Port Scanner
 
-A simple Python tool that checks how strong a password is based on:
-- Length
-- Uppercase letters
-- Lowercase letters
-- Numbers
-- Special characters
+A basic Python script to scan open ports on a target machine.  
+This is for **educational purposes only**.
 
 ## 🚀 Features
-- Rates passwords as **Weak ❌**, **Medium ⚠️**, or **Strong 💪**
-- Uses regular expressions for validation
-- Beginner-friendly project
+- Scans common ports (21, 22, 23, 25, 80, 443, 3306, 8080)
+- Uses Python `socket` module
+- Lightweight and beginner-friendly
+
+## ⚠️ Disclaimer
+This tool is intended for **learning only**.  
+✅ You should only scan your **own devices** or systems you have **permission** to test.  
+❌ Unauthorized port scanning is illegal.
 
 ## 🛠️ Installation
 Clone the repo:
 ```bash
-git clone https://github.com/your-username/password-strength-checker.git
-cd password-strength-checker
+git clone https://github.com/your-username/simple-port-scanner.git
+cd simple-port-scanner
 ````
 
 ## ▶️ Usage
@@ -31,28 +32,31 @@ cd password-strength-checker
 Run the script:
 
 ```bash
-python password_checker.py
+python port_scanner.py
 ```
 
 Example:
 
 ```
-Enter your password: MyP@ssw0rd123
-Password Strength: Strong 💪
+Enter target host (e.g. 127.0.0.1): 127.0.0.1
+Scanning 127.0.0.1...
+[+] Port 22 is OPEN
+[+] Port 80 is OPEN
 ```
 
 ## 📚 Learning Outcomes
 
-* Basics of **regular expressions (regex)**
-* Secure password requirements
-* Python string handling
+* Basics of **networking and sockets**
+* How port scanning works
+* Security awareness for open ports
 
 ---
 
 Made with ❤️ by [Md Umar Hasas](https://github.com/your-username)
 
-````
+```
 
+---
 
 👉 Do you want me to also make these **look cooler** with badges (like Python version, stars, license, etc.) so his profile looks more professional?
 ```
