@@ -1,26 +1,58 @@
+Perfect 👍 Here are **complete `README.md` files** for both repos, nicely formatted for GitHub.
 
 ---
 
-## 📂 `simple-port-scanner/README.md`
+## 📂 `password-strength-checker/README.md`
 
-```markdown
-# 🌐 Simple Port Scanner
+````markdown
+# 🔐 Password Strength Checker
 
-A basic Python script to scan open ports on a target machine.  
-This is for **educational purposes only**.
+A simple Python tool that checks how strong a password is based on:
+- Length
+- Uppercase letters
+- Lowercase letters
+- Numbers
+- Special characters
 
 ## 🚀 Features
-- Scans common ports (21, 22, 23, 25, 80, 443, 3306, 8080)
-- Uses Python `socket` module
-- Lightweight and beginner-friendly
-
-## ⚠️ Disclaimer
-This tool is intended for **learning only**.  
-✅ You should only scan your **own devices** or systems you have **permission** to test.  
-❌ Unauthorized port scanning is illegal.
+- Rates passwords as **Weak ❌**, **Medium ⚠️**, or **Strong 💪**
+- Uses regular expressions for validation
+- Beginner-friendly project
 
 ## 🛠️ Installation
 Clone the repo:
 ```bash
-git clone https://github.com/your-username/simple-port-scanner.git
-cd simple-port-scanner
+git clone https://github.com/your-username/password-strength-checker.git
+cd password-strength-checker
+````
+
+## ▶️ Usage
+
+Run the script:
+
+```bash
+python password_checker.py
+```
+
+Example:
+
+```
+Enter your password: MyP@ssw0rd123
+Password Strength: Strong 💪
+```
+
+## 📚 Learning Outcomes
+
+* Basics of **regular expressions (regex)**
+* Secure password requirements
+* Python string handling
+
+---
+
+Made with ❤️ by [Md Umar Hasas](https://github.com/your-username)
+
+````
+
+
+👉 Do you want me to also make these **look cooler** with badges (like Python version, stars, license, etc.) so his profile looks more professional?
+```
